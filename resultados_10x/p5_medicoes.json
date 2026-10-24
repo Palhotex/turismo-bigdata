@@ -1,0 +1,41 @@
+{
+  "mock": true,
+  "aviso": "mongomock: tempos não representam um servidor MongoDB",
+  "amostras": 100,
+  "mesmas_avaliacoes_nas_duas_versoes": true,
+  "pagina_alojamento_com_subset": {
+    "n": 100,
+    "mediana_ms": 0.641,
+    "p95_ms": 0.891,
+    "max_ms": 1.056
+  },
+  "pagina_alojamento_sem_subset": {
+    "n": 100,
+    "mediana_ms": 12.369,
+    "p95_ms": 16.573,
+    "max_ms": 25.773
+  },
+  "painel_pre_agregado": {
+    "n": 14,
+    "mediana_ms": 0.112,
+    "p95_ms": 0.122,
+    "max_ms": 0.124
+  },
+  "painel_agregado_na_leitura": {
+    "n": 14,
+    "mediana_ms": 416.831,
+    "p95_ms": 457.104,
+    "max_ms": 461.924
+  },
+  "leitura_preco": {
+    "n": 100,
+    "mediana_ms": 0.734,
+    "p95_ms": 1.025,
+    "max_ms": 1.343
+  },
+  "tamanho_medio_doc_alojamento_bytes": {
+    "com_subset": 1960,
+    "sem_subset": 341
+  },
+  "n_avaliacoes": 10217
+}

@@ -1,0 +1,5 @@
+duckdb>=1.1
+pymongo>=4.6
+mongomock>=4.1
+# opcional, só para gerador/reproduzir.py:
+# kafka-python>=2.0

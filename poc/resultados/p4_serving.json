@@ -1,0 +1,14 @@
+{
+  "documentos": {
+    "alojamentos": 500,
+    "avaliacoes": 10217,
+    "painel_zona": 14
+  },
+  "hora_preco_servida": "2026-07-02 00:00:00",
+  "tempos_s": {
+    "construir_documentos": 0.075,
+    "carregar_mongodb": 0.218,
+    "criar_indices": 0.0
+  },
+  "mock": true
+}

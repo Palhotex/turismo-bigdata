@@ -1,0 +1,28 @@
+{
+  "tempos_s": {
+    "nlp_lexico": 0.788,
+    "falsas": 0.49,
+    "escrever_avaliacoes": 0.362,
+    "procura_hora": 0.032,
+    "preco_sugerido": 0.114,
+    "painel_zona": 0.038
+  },
+  "linhas": {
+    "avaliacoes_enriquecidas": 102195,
+    "procura_hora": 336,
+    "preco_sugerido": 120000,
+    "painel_zona": 112
+  },
+  "suspeitas": 4992,
+  "avaliacoes": 102195,
+  "parametros_preco": {
+    "sensibilidade": 0.15,
+    "limites": [
+      0.8,
+      1.5
+    ],
+    "evento_min_pessoas": 10000,
+    "bonus_evento": 1.1,
+    "peso_ocupacao": 0.2
+  }
+}

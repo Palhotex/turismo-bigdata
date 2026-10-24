@@ -1,0 +1,84 @@
+{
+  "tempos_s": {
+    "alojamentos": 0.062,
+    "avaliacoes": 0.969,
+    "pesquisas": 1.609,
+    "reservas": 0.483,
+    "disponibilidade": 0.109,
+    "agenda": 0.046
+  },
+  "qualidade": {
+    "alojamentos": {
+      "linhas_bronze": 5000,
+      "duplicados_removidos": 0,
+      "quarentena": {},
+      "quarentena_total": 0,
+      "validos_prata": 5000,
+      "taxa_validos": 1.0
+    },
+    "avaliacoes": {
+      "linhas_bronze": 105533,
+      "duplicados_removidos": 2014,
+      "quarentena": {
+        "data_futura": 154,
+        "sem_listing_id": 294,
+        "rating_invalido": 327,
+        "sem_rating": 274,
+        "sem_texto": 275
+      },
+      "quarentena_total": 1324,
+      "validos_prata": 102195,
+      "taxa_validos": 0.9872
+    },
+    "pesquisas": {
+      "linhas_bronze": 990219,
+      "duplicados_removidos": 19524,
+      "quarentena": {
+        "hospedes_invalido": 2393,
+        "sem_checkin": 3225,
+        "sem_zona": 3265,
+        "datas_invertidas": 2352
+      },
+      "quarentena_total": 11235,
+      "validos_prata": 959460,
+      "taxa_validos": 0.9884,
+      "chegadas_tardias_watermark": 14764
+    },
+    "reservas": {
+      "linhas_bronze": 42289,
+      "duplicados_removidos": 826,
+      "quarentena": {
+        "preco_invalido": 83,
+        "datas_invertidas": 72,
+        "sem_listing_id": 133,
+        "sem_preco": 128,
+        "sem_checkin": 150,
+        "hospedes_invalido": 43
+      },
+      "quarentena_total": 609,
+      "validos_prata": 40854,
+      "taxa_validos": 0.9853
+    },
+    "disponibilidade": {
+      "linhas_bronze": 35000,
+      "duplicados_removidos": 0,
+      "quarentena": {},
+      "quarentena_total": 0,
+      "validos_prata": 35000,
+      "taxa_validos": 1.0
+    },
+    "agenda": {
+      "linhas_bronze": 155,
+      "duplicados_removidos": 0,
+      "quarentena": {},
+      "quarentena_total": 0,
+      "validos_prata": 155,
+      "taxa_validos": 1.0,
+      "polls_por_formato": {
+        "v2": 12,
+        "v1": 12
+      },
+      "parser_aceita_v2": true
+    }
+  }
+}

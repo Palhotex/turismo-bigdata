@@ -1,0 +1,26 @@
+{
+  "lote": "20261024T152103",
+  "origem": "C:\\Users\\palho\\Downloads\\turismo-bigdata\\turismo-bigdata\\gerador\\saida\\escala_1_semente_42",
+  "linhas": {
+    "alojamentos": 500,
+    "avaliacoes_historico": 10195,
+    "avaliacoes_stream": 343,
+    "pesquisas": 99280,
+    "reservas": 4263,
+    "disponibilidade": 3500,
+    "agenda_api": 24
+  },
+  "tempo_s": {
+    "alojamentos": 0.008,
+    "avaliacoes_historico": 0.023,
+    "avaliacoes_stream": 0.003,
+    "pesquisas": 0.135,
+    "reservas": 0.01,
+    "disponibilidade": 0.005,
+    "agenda_api": 0.003
+  },
+  "total_linhas": 118105,
+  "debito_linhas_s": 631578,
+  "tamanho_jsonl_mb": 29.8,
+  "tamanho_bronze_parquet_mb": 3.0
+}

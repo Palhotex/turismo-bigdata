@@ -1,0 +1,66 @@
+{
+  "avaliacoes_falsas": {
+    "precisao": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "verdadeiros_positivos": 487,
+    "falsos_positivos": 0,
+    "falsas_nao_detetadas": 0,
+    "recall_campanha": 1.0,
+    "nota_media_alvos_sem_suspeitas": 3.46,
+    "nota_media_alvos_com_suspeitas": 4.89
+  },
+  "sentimento": {
+    "pelo_texto_lexico": {
+      "exatidao": 0.935,
+      "f1_macro": 0.889
+    },
+    "so_pela_nota": {
+      "exatidao": 0.949,
+      "f1_macro": 0.942
+    },
+    "n": 9730
+  },
+  "idioma": {
+    "detetado_certo": 0.995,
+    "declarado_certo": 0.972
+  },
+  "qualidade": {
+    "pesquisas": {
+      "duplicados_injetados": 1962,
+      "duplicados_removidos": 1962,
+      "invalidos_injetados": 1436,
+      "enviados_para_quarentena": 1113
+    },
+    "reservas": {
+      "duplicados_injetados": 95,
+      "duplicados_removidos": 95,
+      "invalidos_injetados": 60,
+      "enviados_para_quarentena": 60
+    },
+    "avaliacoes": {
+      "duplicados_injetados": 199,
+      "duplicados_removidos": 199,
+      "invalidos_injetados": 142,
+      "enviados_para_quarentena": 122
+    },
+    "nota": "Campos em falta que não são obrigatórios (ex.: lang) não vão para a quarentena, por isso 'enviados' pode ser menor que 'injetados'."
+  },
+  "mudanca_formato": {
+    "polls_v2_postos_em_quarentena_antes_da_correcao": {
+      "formato_desconhecido": 12
+    },
+    "registos_mal_formados_na_prata": 0,
+    "grande_evento_visivel_apos_reprocessamento": true
+  },
+  "evento_pico": {
+    "cidade": "Porto",
+    "inicio_janela": "2026-07-01 14:00:00",
+    "pesquisas_por_hora_antes": 528.0,
+    "pesquisas_por_hora_durante": 6115.0,
+    "fator_preco_medio_antes": 1.014,
+    "fator_preco_medio_durante": 1.071,
+    "primeira_hora_com_preco_ajustado_5pct": "2026-07-01 14:00:00",
+    "fracao_precos_cortados_pelo_limite": 0.0
+  }
+}

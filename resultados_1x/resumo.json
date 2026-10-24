@@ -1,0 +1,23 @@
+{
+  "escala": 1,
+  "mongodb": "simulado (mongomock)",
+  "tempos_s": {
+    "gerar": 2.3,
+    "ingestao_bronze": 0.8,
+    "prata_sem_v2": 1.1,
+    "prata_corrigida": 1.1,
+    "ouro": 0.7,
+    "serving_mongodb": 1.1,
+    "medicoes_mongodb": 9.1,
+    "avaliar_cenarios": 0.5
+  },
+  "cenario_falha": {
+    "ficheiros_prata_intactos": true,
+    "ficheiros_meio_escritos": 0,
+    "tempo_recuperacao_s": 1.15
+  },
+  "espaco_mb": {
+    "dados_gerados": 32.8,
+    "lake_parquet": 8.4
+  }
+}

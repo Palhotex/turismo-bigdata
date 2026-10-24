@@ -1,0 +1,86 @@
+{
+  "tempos_s": {
+    "alojamentos": 0.091,
+    "avaliacoes": 0.892,
+    "pesquisas": 1.555,
+    "reservas": 0.525,
+    "disponibilidade": 0.123,
+    "agenda": 0.053
+  },
+  "qualidade": {
+    "alojamentos": {
+      "linhas_bronze": 5000,
+      "duplicados_removidos": 0,
+      "quarentena": {},
+      "quarentena_total": 0,
+      "validos_prata": 5000,
+      "taxa_validos": 1.0
+    },
+    "avaliacoes": {
+      "linhas_bronze": 105533,
+      "duplicados_removidos": 2014,
+      "quarentena": {
+        "sem_texto": 275,
+        "data_futura": 154,
+        "rating_invalido": 327,
+        "sem_rating": 274,
+        "sem_listing_id": 294
+      },
+      "quarentena_total": 1324,
+      "validos_prata": 102195,
+      "taxa_validos": 0.9872
+    },
+    "pesquisas": {
+      "linhas_bronze": 990219,
+      "duplicados_removidos": 19524,
+      "quarentena": {
+        "sem_zona": 3265,
+        "sem_checkin": 3225,
+        "hospedes_invalido": 2393,
+        "datas_invertidas": 2352
+      },
+      "quarentena_total": 11235,
+      "validos_prata": 959460,
+      "taxa_validos": 0.9884,
+      "chegadas_tardias_watermark": 14764
+    },
+    "reservas": {
+      "linhas_bronze": 42289,
+      "duplicados_removidos": 826,
+      "quarentena": {
+        "datas_invertidas": 72,
+        "preco_invalido": 83,
+        "hospedes_invalido": 43,
+        "sem_checkin": 150,
+        "sem_preco": 128,
+        "sem_listing_id": 133
+      },
+      "quarentena_total": 609,
+      "validos_prata": 40854,
+      "taxa_validos": 0.9853
+    },
+    "disponibilidade": {
+      "linhas_bronze": 35000,
+      "duplicados_removidos": 0,
+      "quarentena": {},
+      "quarentena_total": 0,
+      "validos_prata": 35000,
+      "taxa_validos": 1.0
+    },
+    "agenda": {
+      "linhas_bronze": 84,
+      "duplicados_removidos": 0,
+      "quarentena": {
+        "formato_desconhecido": 12
+      },
+      "quarentena_total": 12,
+      "validos_prata": 72,
+      "taxa_validos": 0.8571,
+      "polls_por_formato": {
+        "v1": 12,
+        "v2": 12
+      },
+      "parser_aceita_v2": false
+    }
+  }
+}
